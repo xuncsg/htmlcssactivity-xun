@@ -207,7 +207,7 @@
             padding-bottom: 24px;
         }
 
-        /* Set the projectsection grid container's content with a left padding */
+        /* Set the project card p tag with a left padding of 24px */
         .projectcard h4, .projectcard p {
             padding-left: 16px;
         }
@@ -228,7 +228,7 @@
             text-indent: -9999px; /* remove or comment out text indent if all images are available */
         }
 
-        /* Set the projectcard title's style (set the text to be uppercase) */
+        /* Set the projectcard's title style (se the text to upper case) */
         .projectcard .scope {
             text-transform: uppercase;
             padding-top: 8px;
@@ -241,20 +241,24 @@
             transform: scale(1.05);
         }
 
+        /* Set the link colour for the project card */
         .projectcard a {
             text-decoration: none;
             color: gray;
             transform: scale(1.0);
         }
 
-        .projectcard span{
-            display: inline;
+        /* Set some tag layout for the <span> tag */
+        .projectcard span {
+            display: inline-block;
+            font-size: x-small;
             align-content: space-between;
             border-radius: 6px;
-            margin-right: 4px;
+            margin: 4px;
             background-color: lightseagreen;
             padding: 5px 10px;
-            color: white;
+            color: #FFFFFF;
+            white-space: nowrap;
         }
 
         /* ***************************** */
